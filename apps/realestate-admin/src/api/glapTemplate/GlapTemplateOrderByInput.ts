@@ -1,0 +1,37 @@
+import { SortOrder } from "../../util/SortOrder";
+
+export type GlapTemplateOrderByInput = {
+  binactive?: SortOrder;
+  bvalid?: SortOrder;
+  dtlastposted?: SortOrder;
+  dtrangefrom?: SortOrder;
+  dtrangeto?: SortOrder;
+  haccrualacct?: SortOrder;
+  hcompany?: SortOrder;
+  hfunding?: SortOrder;
+  hoffsetacct?: SortOrder;
+  hperson?: SortOrder;
+  iapr?: SortOrder;
+  iaug?: SortOrder;
+  id?: SortOrder;
+  idec?: SortOrder;
+  idisplaytype?: SortOrder;
+  idueday?: SortOrder;
+  ifeb?: SortOrder;
+  ijan?: SortOrder;
+  ijul?: SortOrder;
+  ijun?: SortOrder;
+  imar?: SortOrder;
+  imay?: SortOrder;
+  inov?: SortOrder;
+  ioct?: SortOrder;
+  irecurday?: SortOrder;
+  isep?: SortOrder;
+  istatus?: SortOrder;
+  samount?: SortOrder;
+  scode?: SortOrder;
+  sdesc?: SortOrder;
+  sexpensetype?: SortOrder;
+  snotes?: SortOrder;
+  spostcode?: SortOrder;
+};

@@ -1,0 +1,38 @@
+import { SortOrder } from "../../util/SortOrder";
+
+export type GlAllocateDetailOrderByInput = {
+  dfactor?: SortOrder;
+  hacct?: SortOrder;
+  haccttreedetail?: SortOrder;
+  hfromacct?: SortOrder;
+  hglallocate?: SortOrder;
+  hoffsetacct?: SortOrder;
+  ibudget?: SortOrder;
+  id?: SortOrder;
+  iexclude?: SortOrder;
+  igroup?: SortOrder;
+  inegate?: SortOrder;
+  iorder?: SortOrder;
+  iptd?: SortOrder;
+  sacctdescription?: SortOrder;
+  sacctnode?: SortOrder;
+  sbook?: SortOrder;
+  scalctype?: SortOrder;
+  sformula?: SortOrder;
+  snotes?: SortOrder;
+  spropertylist?: SortOrder;
+  ssegment1?: SortOrder;
+  ssegment10?: SortOrder;
+  ssegment11?: SortOrder;
+  ssegment12?: SortOrder;
+  ssegment2?: SortOrder;
+  ssegment3?: SortOrder;
+  ssegment4?: SortOrder;
+  ssegment5?: SortOrder;
+  ssegment6?: SortOrder;
+  ssegment7?: SortOrder;
+  ssegment8?: SortOrder;
+  ssegment9?: SortOrder;
+  stocolumnname?: SortOrder;
+  stype?: SortOrder;
+};

@@ -1,0 +1,31 @@
+import { FloatFilter } from "../../util/FloatFilter";
+import { IntFilter } from "../../util/IntFilter";
+import { StringFilter } from "../../util/StringFilter";
+
+export type GlapTemplateDetailWhereInput = {
+  camount?: FloatFilter;
+  dpercent?: FloatFilter;
+  dretention?: FloatFilter;
+  hacct?: IntFilter;
+  hcategory?: IntFilter;
+  hcontract?: IntFilter;
+  hcostcode?: IntFilter;
+  hglaptemplate?: IntFilter;
+  hjob?: IntFilter;
+  hproperty?: IntFilter;
+  hvattrantype?: IntFilter;
+  id?: IntFilter;
+  snotes?: StringFilter;
+  ssegment1?: StringFilter;
+  ssegment10?: StringFilter;
+  ssegment11?: StringFilter;
+  ssegment12?: StringFilter;
+  ssegment2?: StringFilter;
+  ssegment3?: StringFilter;
+  ssegment4?: StringFilter;
+  ssegment5?: StringFilter;
+  ssegment6?: StringFilter;
+  ssegment7?: StringFilter;
+  ssegment8?: StringFilter;
+  ssegment9?: StringFilter;
+};
