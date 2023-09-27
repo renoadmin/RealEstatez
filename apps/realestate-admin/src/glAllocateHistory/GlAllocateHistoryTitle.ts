@@ -3,5 +3,5 @@ import { GlAllocateHistory as TGlAllocateHistory } from "../api/glAllocateHistor
 export const GLALLOCATEHISTORY_TITLE_FIELD = "ssegment1";
 
 export const GlAllocateHistoryTitle = (record: TGlAllocateHistory): string => {
-  return record.ssegment1 || String(record.id);
+  return record.ssegment1?.toString() || String(record.id);
 };
