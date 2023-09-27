@@ -5,5 +5,5 @@ export const GLAPTEMPLATEDETAIL_TITLE_FIELD = "snotes";
 export const GlapTemplateDetailTitle = (
   record: TGlapTemplateDetail
 ): string => {
-  return record.snotes || String(record.id);
+  return record.snotes?.toString() || String(record.id);
 };
